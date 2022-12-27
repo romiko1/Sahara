@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(26, 7, 7, 0.7),rgba(122, 71, 71, 0.7)),url(images/download\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+   display: flex;
+    height: 88%;
+    align-items: center;
+ 
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card1{
+    background-image: url(images/images\ \(1\).jpg);
+}
+.card2{
+    background-image: url(images/romleon.jpg);
+}
+.card3{
+    background-image: url(images/rom.jpg);
+}
+.card4{
+    background-image: url(images/download.jpg);
+}
+
+.card:hover{
+    transform: translate(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999; 
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(59, 247, 200, 0.384),rgba(255, 74, 74, 0.438)),url(images/uji.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+
+.ty{
+    display: flex;
+     height: 88%;
+     align-items: center;
+    color: brown;
+ }
+ .ji{
+    flex-basis: 50%;
+}
+
+.card5{
+   margin-left: 100px;
+    background-image: url(images/download\ \(2\).jpg);
+}
+.card6{
+   margin-left: 60px;
+    background-image: url(images/about-2.jpg);
+
+}
+
+h1{
+    color: rgb(182, 0, 0);
+}
+.bosh{
+    width: 60px;
+}
+.jork{
+    color: #fff
+}
+
+.wolf{
+    width: 40px;
+    margin-left: 1000px;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h6{
+   color: #fff;
+   font-weight: 500;
+   margin-bottom: 40px;
+}
+
+.signup-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+}
+.left-box{
+    padding: 50px;
+    background: #008d52a6;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: rgb(0, 0, 0);
+}
+.right-box{
+    padding: 50px;
+   flex-basis: 50%;
+   flex-grow: 1;
+}
+
+.input-box{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(255, 0, 0);
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    background: transparent;
+}
+
+.left-box button{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+
+
+
+
+.left-box button:hover{
+    font-weight: 500;
+    background: rgb(47, 0, 255);
+    color: rgb(255, 255, 255);
+}
